@@ -1,0 +1,519 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family:'Roboto' , 'sans-serif';
+  }
+  
+  header{
+    position: absolute;
+    background: #000000;
+    width: 400px;
+    height:79px;
+    border-radius: 0px 0px 30px 0px;
+  }
+
+  header img {
+    position: absolute;
+    left: 1%;
+    width: 64px;
+    height: 64px;
+    background-color: #fff;
+  }
+  header h1 {
+    position: absolute;
+    background-color: #fff;
+    left: 0%;
+    padding: 13px 130px 13px 150px;
+    border-radius: 0px 0px 30px 0px;
+  }
+
+  nav{
+    position: absolute;
+    left:0;
+    width: 200px;
+    top:79px;
+    background:#000000;
+  }
+  
+  .menu li{
+    width: 100%;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+  }
+  
+  .menu a{
+    color:#fff;
+    display: block;
+    line-height:3.5;
+    padding: 0 10px;
+    text-decoration:none;
+    transition:.4s;
+  }
+  
+  .menu a:hover{
+    transform:translateX(10%);
+  }
+
+  
+  .menu #a img{
+    position: relative;
+    background-color: #000000;
+    left: 10%;
+    top: 6px;
+    height: 20px;
+    width: 20px;
+    transform: translate(-50%, -20%);
+    margin-right: 20px;
+  }
+
+  .menu #b img{
+    position: relative;
+    background-color: #000000;
+    left: 10%;
+    height: 30px;
+    width: 20px;
+    transform: translate(-50%, 30%);
+    margin-right: 20px;
+  }
+
+  .menu #c img{
+    position: relative;
+    background-color: #000000;
+    left: 10%;
+    height: 30px;
+    width: 20px;
+    transform: translate(-50%, 30%);
+    margin-right: 20px;
+  }
+
+  .menu #d img{
+    position: relative;
+    background-color: #000000;
+    left: 10%;
+    height: 35px;
+    width: 20px;
+    transform: translate(-50%, 30%);
+    margin-right: 20px;
+  }
+
+  .menu #e img{
+    position: relative;
+    background-color: #000000;
+    left: 10%;
+    height: 20px;
+    width: 20px;
+    transform: translate(-50%, 30%);
+    margin-right: 20px;
+  }
+
+  .menu #f img{
+    position: relative;
+    background-color: #000000;
+    left: 10%;
+    height: 20px;
+    width: 20px;
+    transform: translate(-50%, 30%);
+    margin-right: 20px;
+  }
+
+  .menu #g img{
+    position: relative;
+    background-color: #000000;
+    left: 10%;
+    height: 20px;
+    width: 20px;
+    transform: translate(-50%, 30%);
+    margin-right: 20px;
+  }
+
+  .menu #h img{
+    position: relative;
+    background-color: #000000;
+    left: 10%;
+    height: 23px;
+    width: 20px;
+    transform: translate(-50%, 30%);
+    margin-right: 20px;
+  }
+
+  .menu #i img{
+    position: relative;
+    background-color: #000000;
+    left: 10%;
+    height: 23px;
+    width: 20px;
+    transform: translate(-50%, 30%);
+    margin-right: 20px;
+  }
+
+  .menu #j img{
+    position: relative;
+    background-color: #000000;
+    left: 10%;
+    height: 23px;
+    width: 20px;
+    transform: translate(-50%, 30%);
+    margin-right: 20px;
+  }
+  
+  .solicitudes{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 100px;
+    left: 250px;
+    top: 100px;
+    border: 1px solid #a8a8a8;
+    border-radius: 15px;
+    box-shadow: 6px 6px 5px 5px #a0a0a0;
+  }
+
+  .solicitudes p{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    }
+    
+  .solicitudes div{
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background-color: #000000;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, 0);
+  }
+    
+  .solicitudes img{
+    position: absolute;
+    height: 65px;
+    left: 5%;
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
+
+  .solicitudes a{
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+  }
+
+  .solicitudes a:hover{
+    transform: translateX(5px);
+  }
+
+  .solicitudes a img{
+    height: 50px;
+  }
+  .actas{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 100px;
+    left: 600px;
+    top: 100px;
+    border: 1px solid #a8a8a8;
+    border-radius: 15px;
+    box-shadow: 6px 6px 5px 5px #a0a0a0;
+  }
+
+  .actas p{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    }
+    
+  .actas div{
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    background-color: #000000;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, 0);
+  }
+  .actas a{
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+  }
+
+  .actas a:hover{
+    transform: translateX(5px);
+  }
+    
+  .actas img{
+    position: absolute;
+    height: 65px;
+    left: 5%;
+    top: 50%;
+    transform: translate(0%, -50%); 
+  }
+
+  .actas a img{
+    height: 50px;
+  }
+
+
+  .pendientes{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 100px;
+    left: 950px;
+    top: 100px;
+    border: 1px solid #a8a8a8;
+    border-radius: 15px;
+    box-shadow: 6px 6px 5px 5px #a0a0a0;
+  }
+
+  .pendientes p{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    }
+    
+  .pendientes div{
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background-color: #000000;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, 0);
+  }
+  .pendientes a{
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+  }
+
+  .pendientes a:hover{
+    transform: translateX(5px);
+  }
+    
+  .pendientes img{
+    position: absolute;
+    width: 60px;
+    left: 5%;
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
+
+  .pendientes a img{
+    height: 50px;
+  }
+
+  .titulo{
+    position: absolute;
+    top: 230px;
+    left: 750px;
+    transform: translate(-50%, 0%);
+    border-bottom: 1px solid #000000;
+    padding: 0px 100px;
+  }
+  .titulo h1{
+    text-align: center;
+  }
+
+  .caja_s {
+    position: absolute;
+    top: 280px;
+    left: 750px;
+    transform: translate(-50%, 0%);
+    padding: 0px 50px;
+  }
+
+  .caja_s #tipo_solicitud{
+    margin-top: 10px;
+    position: relative;
+    height: 30px;
+    width: 200px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+
+  .caja_s #tipo_solicitud:focus{
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+
+  }
+  
+
+  .caja_input{
+    position: absolute;
+    border: 1px solid black;
+    top: 500px;
+    left: 750px;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 250px;
+    border-radius: 15px;
+  }
+
+  .caja_input #Nombrelb{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    width: 45%;
+    height: 12%;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+
+  .caja_input #Nombre{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 45%;
+    height: 12%;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid #818181;
+    transition: 0.2s;
+  }
+
+  .caja_input #Nombre:focus{
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+
+  }
+  
+  .caja_input #Tipo_Documentolb{
+    position: absolute;
+    top: 12px;
+    right: 340px;
+    border-radius: 10px;
+    padding-left: 10px;  
+  }
+
+  .caja_input #Tipo_Documento{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 45%;
+    height: 12%;
+    border-radius: 10px;
+    padding-left: 10px; 
+    border: 1px solid #818181; 
+    transition: 0.2s;
+  }
+
+  .caja_input #Tipo_Documento:focus{
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+
+  }
+  
+
+  .caja_input #Documentolb{
+    position: absolute;
+    top: 73px;
+    right: 390px;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+
+  .caja_input #Documento{
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    width: 45%;
+    height: 12%;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid #818181;
+    transition: 0.2s;
+  }
+
+  .caja_input #Documento:focus{
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+
+  }
+  
+
+  .caja_input #Fechalb{
+    position: absolute;
+    top: 73px;
+    left: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+
+  .caja_input #Fecha{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    width: 45%;
+    height: 12%;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid #818181;
+    transition: 0.2s;
+  }
+  
+  .caja_input #Fecha:focus{
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+
+  }
+  
+  
+  .caja_input #Descripcionlb{
+    position: absolute;
+    left: 20px;
+    bottom: 95px;
+    border-radius: 10px;
+    padding-left: 10px; 
+  }
+
+  .caja_input #Descripcion{
+    position: absolute;
+    left: 20px;
+    width: 75%;
+    height: 35%;
+    bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #818181;
+    resize: none;
+    transition: 0.2s;
+  }
+
+  .caja_input #Descripcion:focus{
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+
+  }
+  
+    .caja_input a{
+    position: absolute;
+    bottom: 10%;
+    Right: 4%;
+    padding: 20px 50px;
+    color: #ffffff;
+    background-color: #1d1d1d;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: .5s;
+  }
+
+  .caja_input a:hover{
+    background-color: #000000;
+  }
+  
